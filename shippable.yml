@@ -1,5 +1,5 @@
 language: python
-build_image: drydock/u14pyt
+build_image: himanshu0503/u14pyt
 python:
   - 3.2
   - 3.3
