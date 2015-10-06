@@ -1,5 +1,5 @@
 language: python
-build_image: himanshu0503/u14pyt
+build_image: gcr.io/drydock/u14pyt:prod
 python:
   - 3.2
   - 3.3
