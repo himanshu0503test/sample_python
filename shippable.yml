@@ -1,7 +1,16 @@
 language: python
 build_image: shippableimages/ubuntu1204_python
 python:
-  - 2.6
+  - 3.2
+  - 3.3
+  - 3.4
+
+before_install:
+#  set up a virtualenv and activate the python version that you want to use
+  - mkdir -p $HOME/ve/
+  - virtualenv -p $SHIPPABLE_PYTHON  $HOME/ve/
+  - source $HOME/ve/bin/activate
+
 
 install:
   - pip install -r requirements.txt
