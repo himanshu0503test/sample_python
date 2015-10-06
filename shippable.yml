@@ -6,6 +6,7 @@ python:
 before_install:
 #  set up a virtualenv and activate the python version that you want to use
   - ls $HOME
+  - ls $HOME/ve
   #- mkdir -p $HOME/ve/
   #- virtualenv -p $SHIPPABLE_PYTHON  $HOME/ve/
   #- source $HOME/ve/bin/activate
