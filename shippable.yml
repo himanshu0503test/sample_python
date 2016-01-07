@@ -1,7 +1,9 @@
 language: python
-build_image: shippableimages/ubuntu1204_python
+build_image: drydock/u14pyt:tip
 python:
   - 3.3
+  - pypy
+  - pypy3
 
 before_install:
 #  set up a virtualenv and activate the python version that you want to use
